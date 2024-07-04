@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  background-color: rgb(255, 235, 148);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  font-family: "Lora", serif;
+  margin: 35px auto 20px;
+  font-size: 60px;
+}
+
+hr {
+  border-top: 2px solid black;
+  width: 40%;
+  margin-bottom: 55px;
+}
+
+.main {
+  width: 50vw;
+  margin: auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+label {
+  font-size: 20px;
+}
+
+.btn {
+  width: 200px;
+  background-color: rgb(0, 68, 100);
+}
+
+#finalAmount {
+  font-family: "Ubuntu", sans-serif;
+  display: none;
+  margin: 50px auto;
+}
+
+#finalAmount h2 {
+  font-size: 30px;
+}
+
+.finalValue {
+  font-family: "Amiri", serif;
+}
+
+@media (max-width: 500px) {
+  hr {
+    width: 60%;
+  }
+  .main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .heading {
+    font-size: 40px;
+  }
+  hr {
+    width: 75%;
+  }
+  #finalAmount h2,
+  .finalValue {
+    font-size: 30px;
+  }
+}
